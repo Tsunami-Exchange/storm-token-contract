@@ -1,19 +1,6 @@
-# Notcoin Jetton
+# Storm Jetton
 
-Jetton forked from https://github.com/ton-blockchain/stablecoin-contract but with removed governance functionality.
-
-
-# Details
-
-
-Notcoin represents a [standard TON jetton smart contracts](https://github.com/ton-blockchain/token-contract/tree/369ae089255edbd807eb499792a0a838c2e1b272/ft) with additional functionality:
-
-
-- Admin of jetton can change jetton-minter code and it's full data.
-
-__⚠️ It is critically important for issuer to carefully manage the admin's account private key to avoid any potential risks of being hacked. It is highly recommend to use multi-signature wallet as admin account with private keys stored on different air-gapped hosts / hardware wallets.__
-
-__⚠️ The contract does not check the code and data on `upgrade` message, so it is possible to brick the contract if you send invalid data or code. Therefore you should always check the upgrade in the testnet.__
+Jetton forked from https://github.com/OpenBuilders/notcoin-contract with no additional functionality.
 
 # Local Development
 
